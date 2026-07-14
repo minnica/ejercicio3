@@ -5,10 +5,14 @@
 import { LitElement, html } from "lit";
 
 export class listNames extends LitElement {
-  static get properties() {}
+  //static get properties() {}
 
-  constructor() {}
+  //constructor() {}
 
-  render() {}
+  render() {
+    return html`
+      <h1>Ejercicio 3</h1>
+    `;
+  }
 }
 customElements.define("list-names", listNames);
